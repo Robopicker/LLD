@@ -1,0 +1,7 @@
+{
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "strategy": "node ./Strategy/$npm_config_file.js"
+    }
+}
