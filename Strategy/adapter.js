@@ -53,7 +53,7 @@ class VLCAdapter extends MediaPlayer {
 
 // Client - uses the Target interface (MediaPlayer)
 // Doesn't know about the Adaptee directly, only interacts through the Adapter
-class AudioPlayer {
+class AudioPlayer extends MediaPlayer {
     constructor() {
       this.mediaAdapter = null;
     }
